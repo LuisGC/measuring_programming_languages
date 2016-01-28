@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=1024" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	
+	<meta name="description" content="Concerning Governance in programming languages" />
+	<meta name="author" content="Luis García Castro" />
+	<meta name="keywords" content="Presentation, Open Source, Open, Free, Programming, Languages, Governance, Software" />  
+	<title>Measuring health and ethics in programming languages - Luis García Castro</title>
+	
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+	
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+	<p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+	<p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+
+	<div id="title" class="step slide" data-x="-486" data-y="-364" data-rotate="0" data-rotate-x="-30" data-scale="3">
+		<img src="img/programming-languages-cover.jpg" alt="Programming languages" class="img_back maxed_height blur" />
+		<div class="title">
+			<p><em>Measuring Health and Ethics<br/>in programming languages</em></p>
+		</div>
+		<div class="author">
+			<p>January 2016 <br /><em>Luis García Castro</em></p>
+		</div>
+		<div class="event_logo">
+			<p>#FCM2</p>
+		</div>
+	</div>
+
+	<div id="overview" class="step" data-x="-500" data-rotate-x="-30" data-scale="7"></div>
+<!--
+-->
+	<div id="introduction" class="step slide" data-x="1945" data-y="-363" data-rotate="0" data-scale="1">
+		<div class="slide-title centered-title"><em>Introduction</em></div>
+		<div class="slide-content">
+			<p id="name">
+				<em>Luis García Castro</em>
+			</p>
+			<p>Software Engineer @ Sopra Steria</p>
+			<br />
+			<p id="twitter">
+				<img src="img/social/twitter.png" alt="Twitter" class="rounded_icon" />
+				<a href="https://twitter.com/luiyo">
+					twitter.com/luiyo
+				</a>
+			</p>
+			<p id="gplus">
+				<img src="img/social/google-plus.png" alt="Google Plus" class="rounded_icon" />
+				<a href="https://plus.google.com/+LuisGarcíaCastro">
+					plus.google.com/+LuisGarcíaCastro
+				</a>
+			</p>
+			<p id="linkedin">
+				<img src="img/social/linkedin.png" alt="LinkedIn" class="rounded_icon" />
+				<a href="http://www.linkedin.com/in/LuisGC">
+					linkedin.com/in/LuisGC
+				</a>
+			</p>
+			<p id="github">
+				<img src="img/social/github.png" alt="GitHub" class="rounded_icon" />
+				<a href="https://github.com/LuisGC">
+					github.com/LuisGC
+				</a>
+			</p>
+			<br />
+			<p id="osmf">
+				<img src="img/logos/fsfe.png" alt="OpenStreetMap Foundation" class="rounded_icon" />
+				Proud member of the <a href="https://fsfe.org/"><em>Free Software Foundation Europe</em></a>
+			</p>
+			<p id="osm_profile">
+				<img src="img/logos/osmf.png" alt="OpenStreetMap Profile" class="rounded_icon" />
+				Proud member of the <a href="http://osmfoundation.org/"><em>Open Street Map Foundation</em></a>
+			</p>
+			<br />
+
+			<p id="openSource">
+				<img src="img/open-source-logo.png" alt="Impress.js" class="rounded_icon" />
+				<span class="footer"><i>Presentation made with the awesome Open Source tool <a href="https://github.com/bartaz/impress.js"><em>Impress.js</em></a></i></span>
+			</p>
+							
+		</div>
+	</div>
+	
+	<div id="usual_comparisions" class="step slide" data-x="1798" data-y="467" data-rotate="20" data-scale="1">
+		<div class="subtitle">
+			<p>The usual comparisions...</p>
+			<br />
+			<center><img src="img/gifs/boring_bart.gif" alt="Boring Bart" class="fixed_height" /></center>
+		</div>
+	</div>
+
+	<div id="comparing-by-projects-created" class="step slide" data-x="1376" data-y="1198" data-rotate="40" data-scale="1">
+		<div class="slide-title">by projects <b>created</b> on Github since 2010</div>
+		<div class="slide-content">
+			<img src="img/github_projects_since_2010.png" alt="# projects created on Github since 2010" class="img_back full_height" />
+			<div class="source">
+				<p>Source: <a href="https://bigquery.cloud.google.com/">Google BigQuery + Github Archive</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="comparing-by-jobs-posted-US" class="step slide" data-x="729" data-y="1741" data-rotate="60" data-scale="1">
+		<div class="slide-title">by <b>jobs posted</b> on Indeed.com</div>
+		<div class="slide-content">
+			<img src="img/jobs_posted_indeed.png" alt="# jobs posted on Indeed.com" class="img_back full_height" />
+			<div class="source">
+				<p>Source: <a href="http://www.indeed.com/jobs">Indeed.com/jobs</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="comparing-by-activity" class="step slide" data-x="-63" data-y="2030" data-rotate="80" data-scale="1">
+		<div class="slide-title">by <b>activity</b> in StackOverflow</div>
+		<div class="slide-content">
+			<img src="img/activity_StackOverflow.png" alt="Activity in StackOverflow" class="img_back full_height" />
+			<div class="source">
+				<p>Source: <a href="http://stackoverflow.com/tags">StackOverflow.com/tags</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="comparing-by-corporate-interest" class="step slide" data-x="-908" data-y="2030" data-rotate="100" data-scale="1">
+		<div class="slide-title">by <b>corporate interest</b></div>
+		<div class="slide-content">
+			<ul class="lv2_indent">
+				<li><em>#1 . . . Java</em></li>
+				<li><em>#2 . . . Javascript</em></li>
+				<li><em>#3 . . . Python</em></li>
+				<li><em>#4 . . . C</em></li>
+				<li><em>#5 . . . PHP</em></li>
+				<li><em>#6 . . . C++</em></li>
+				<li><em>#7 . . . Ruby</em></li>
+				<li><em>#8 . . . C#</em></li>
+				<li><em>#9 . . . Perl</em></li>
+				<li><em>#10 . . . Objective-C</em></li>
+				<li><em>#11 . . . Scala</em></li>
+				<li><em>#12 . . . Haskell</em></li>
+				<li><em>#13 . . . Matlab</em></li>
+				<li><em>#13 . . . R</em></li>
+				<li><em>#15 . . . Clojure</em></li>
+				<p>...</p>
+			</ul>
+			<div class="source">
+				<p>Source: <a href="http://blogs.gartner.com/mark_driver/2014/10/02/gartner-programming-language-index-for-2014/">Gartner Programming Language Index for 2014 | Gartner.com</a></p>
+			</div>
+		</div>
+		<div class="notes">
+			<p>Rust is not even there</p>
+		</div>
+	</div>
+
+	<div id="going_further" class="step slide" data-x="-1701" data-y="1741" data-rotate="120" data-scale="1">
+		<div class="subtitle">
+			<p>But we can go <b>further</b>...</p>
+			<br />
+			<center><img src="img/gifs/nervous_minions.gif" alt="Nervous minions" class="fixed_height" /></center>
+		</div>
+		<div class="notes">
+			<p>Original idea and disclaimers first...</p>
+		</div>
+	</div>
+	
+	<div id="governance-concerns" class="step slide" data-x="-2348" data-y="1198" data-rotate="140" data-scale="1">
+		<div class="slide-title">Concerning <b>governance</b>...</div>
+		<div class="slide-content">
+			<img src="img/what_is_democracy.gif" alt="What's democracy" class="img_back maxed_height" />
+			<div class="source">
+				<p>Original Source: unknown (sorry)</p>
+			</div>
+		</div>
+		<div class="notes">
+			<p>This aspects are related to the Governance itself, but also to the <b>community</b> and the language general <b>health</b></p>
+		</div>
+	</div>
+
+	<div id="governance-systems" class="step slide" data-x="-2770" data-y="467" data-rotate="160" data-scale="1">
+		<div class="slide-title">Governance systems: BDFLs vs Boards</div>
+		<div class="slide-content">
+			<br /><br />
+			<center><img src="img/benevolent_dictators.jpg" alt="Benevolent dictators" class="maxed_height" /></center>
+			<div class="source">
+				<p>Source: <a href="http://www.teaparty.org/dictator-chief-obama-preparing-unleash-series-executive-actions-103436/">teaparty.org</a></p>
+			</div>
+		</div>
+		<div class="notes">
+			<p>BDFLs</p>
+			<ul>
+				<li>Dennis Ritchie* in C</li>
+				<li>Guido van Rossum in Python</li>
+				<li>Yukihiro Matsumoto* in Ruby</li>
+				<li>Larry Wall in Perl</li>
+				<li>Rich Hickey in Clojure</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="free-software-licenses" class="step slide" data-x="-2917" data-y="-364" data-rotate="180" data-scale="1">
+		<div class="slide-title">Main Free Software Licenses</div>
+		<div class="slide-content">
+			<br /><br />
+			<center><img src="img/oss_licenses.png" alt="OSS Licenses" class="maxed_height" /></center>
+			<div class="source">
+				<p>Source: <a href="http://www.slideshare.net/blackducksoftware/managing-android-and-the-complexity-inside-understanding-the-open-source-license-and-compliance-issues">Understanding the Open Source License and Compliance Issues </a></p>
+			</div>
+		</div>
+		<div class="notes">
+			<p>Some licenses are no copy left compatible:</p>
+			<ul>
+				<li>GPL: FSF yes, copyleft Yes</li>
+				<li>BSD: FSF yes, GPL compatible NO, copyleft No</li>
+				<li>MIT: FSF yes, GPL compatible yes, copyleft No</li>
+				<li>AL: FSF yes, GPL compatible yes, copyleft No</li>
+				<li>MPL: FSF yes, GPL compatible yes, copyleft Partial</li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="community-relevance" class="step slide" data-x="-2770" data-y="-1195" data-rotate="200" data-scale="1">
+		<div class="slide-title">Community size and relevance</div>
+		<div class="slide-content">
+			<img src="img/fosdem_2015.jpg" alt="FOSDEM 2015" class="img_back maxed_height" />
+			<div class="source">
+				<p>Source: <a href="https://www.flickr.com/photos/boklm/8445085831/in/pool-fosdem/">Nicolas Vigier | Flickr </a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="community-diversity" class="step slide" data-x="-2348" data-y="-1926" data-rotate="220" data-scale="1">
+		<div class="slide-title">Community diversity</div>
+		<div class="slide-content">
+			<img src="img/django-girls.jpg" alt="Django Girls at PyConEs 2015" class="img_back maxed_height" />
+			<div class="source">
+				<p>Source: <a href="https://twitter.com/DjangoGirlsES/status/667790191487266816">Django Girls at PyConEs 2015</a></p>
+			</div>
+		</div>
+		<div class="notes">
+			<p>Attributes: age, culture, ethnicity, gender identity or expression, national origin, physical or mental difference, politics, race, religion, sex, sexual orientation, socio-economic status, and subculture.</p>
+			<p>Source: <a href="https://www.python.org/community/diversity/">python.org</a></p>
+		</div>
+	</div>
+	
+	<div id="language-health" class="step slide" data-x="-1701" data-y="-2469" data-rotate="240" data-scale="1">
+		<div class="slide-title">Language Health</div>
+		<div class="slide-content">
+			<img src="img/language-rankings-2015-Q3.png" alt="language rankings in the 2015 Q3" class="img_back maxed_height" />
+			<div class="source">
+				<p>Source: <a href="https://redmonk.com/sogrady/2015/07/01/language-rankings-6-15/">Redmonk.com</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="language-popularity" class="step slide" data-x="-908" data-y="-2758" data-rotate="260" data-scale="1">
+		<div class="slide-title">Language popularity</div>
+		<div class="slide-content">
+			<br />
+			<center><img src="img/TIOBE_2015_11.png" alt="TIOBE Programming Community index - Nov 2015" class="full_height" /></center>
+			<div class="source">
+				<p>Source: <a href="http://www.tiobe.com/index.php/content/paperinfo/tpci/index.html">TIOBE Programming Community Index</a></p>
+			</div>
+		</div>
+		<div class="notes">
+			<p>The TIOBE Programming Community index is an indicator of the popularity of programming languages. The index is updated once a month. The ratings are based on the number of skilled engineers world-wide, courses and third party vendors</p>
+		</div>		
+	</div>
+
+	<div id="public-presence" class="step slide" data-x="-63" data-y="-2758" data-rotate="280" data-scale="1">
+		<div class="slide-title">Public presence (and activity)</div>
+		<div class="slide-content">
+			<img src="img/GitHut_ranking-2014-Q4.png" alt="GitHut ranking 2014 Q4" class="img_back maxed_height" />
+			<div class="source">
+				<p>Source: <a href="http://githut.info/">githut.info</a></p>
+			</div>
+		</div>
+	</div>
+
+	<div id="language-evolution" class="step slide" data-x="729" data-y="-2469" data-rotate="300" data-scale="1">
+		<div class="slide-title">Language evolution</div>
+		<div class="slide-content">
+			<img src="img/Java_code_evolution.jpg" alt="Java Code Evolution" class="img_back maxed_height" />
+			<div class="source">
+				<p>Source: <a href="https://twitter.com/fabianenardon/status/658742339217682432">@fabianenardon</a> at JavaOne 2015</p>
+			</div>
+		</div>
+		<div class="notes">
+			<ul>
+				<p>Java 1: 1997</p>
+				<p>Java 5: 2004</p>
+				<p>Java 8: 2014</p>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="potential_metrics" class="step slide" data-x="1376" data-y="-1926" data-rotate="320" data-scale="1">
+		<div class="slide-title">Suggestions for potential metrics</div>
+		<div class="slide-content">
+			<br />
+			<ul class="lv1_indent">
+				<li><em>Ethics Parameters</em></li>
+				<ul class="lv1_indent">
+					<li>Governance systems</li>
+					<li>Governance transparency</li>
+					<li>Freedom & Independence</li>
+					<li>Software licenses</li>
+					<li>Community value: size, relevance, ...</li>
+					<li>Efforts to promote diversity</li>
+				</ul>
+				<br />
+				<li><em>Health Parameters</em></li>
+				<ul class="lv1_indent">
+					<li>Language Popularity (TIOBE, ...)</li>
+					<li>Public presence (Github, ...)</li>
+					<li>Language evolution</li>
+					<li>Maturity</li>
+					<li>Expected tendency</li>
+				</ul>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="thanks" class="step slide" data-x="1798" data-y="-1195" data-rotate="340" data-scale="1">
+		<div class="title"><h2>Thanks !!</h2></div>
+		<img src="img/gifs/thank_you.gif" alt="Thank you" style="max-height:35%" class="img_back maxed_height" />
+		<div class="subtitle">
+			<p>Luis García Castro - @luiyo</p>
+			<p id="creativeCommons">
+				<img src="img/creative-commons.png" alt="Creative Commons" class="rounded_icon" />
+				<a href="http://creativecommons.org/licenses/by-sa/3.0/es/">
+					<span class="footer"><i>Creative Commons <em>CC-BY-SA</em></i></span>
+				</a>
+			</p>
+		</div>
+		<div class="caption">
+		</div>
+	</div>
+
+</div>
+
+<script src="js/impress.js"></script>
+<script src="js/impressConsole.js"></script>
+<script>
+	impress().init();
+	impressConsole().init(css="css/impressConsole.css");
+	//impressConsole().open(); // If you want them to open automatically
+</script>
+
+</body>
+</html>
