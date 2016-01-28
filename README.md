@@ -1,9 +1,9 @@
 Concerning Governance in Programming Languages 
 ====
 
-Presentation (in English): **''How can we measure both health and ethics of a Programming Language?''** by [Luis García Castro](https://github.com/LuisGC)
+Presentation (in English): **'Measuring Health and Ethics in Programming Languages'** by [Luis García Castro](https://github.com/LuisGC)
 
-View in GitHub-Pages: [Concerning Governance in Programming Languages] (https://luisgc.github.com/programming_languages_governance)
+View in GitHub-Pages: [Measuring Health and Ethics in Programming Languages] (https://luisgc.github.com/http://luisgc.github.io/measuring_programming_languages)
 
 # Resources
 
