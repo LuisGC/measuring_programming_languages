@@ -3,7 +3,7 @@ Measuring Health and Ethics in Programming Languages
 
 Presentation (in English): **'Measuring Health and Ethics in Programming Languages'** by [Luis García Castro](https://github.com/LuisGC)
 
-View in GitHub-Pages: [Measuring Health and Ethics in Programming Languages] (https://luisgc.github.com/http://luisgc.github.io/measuring_programming_languages)
+View in GitHub-Pages: [Measuring Health and Ethics in Programming Languages] (http://luisgc.github.io/measuring_programming_languages)
 
 # Resources
 
